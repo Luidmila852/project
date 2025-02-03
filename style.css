@@ -22,8 +22,9 @@ body { font-family: 'TTLakes';
     background-color: #F8F8F8;
     margin:0;}
 
-header {background-color: #ffffff;
-width: 100%; 
+.header {background-color: #ffffff;
+width: 100%;  
+align-items: center;
 } 
 
 .nav {display:flex;
@@ -127,11 +128,13 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 white-space:nowrap;}
-    
-.section__img--size
-    { width:100%;} 
 
-@media (max-width:320px) {  
+.section__img--size
+{ width:100%;} 
+
+
+
+@media (min-width:320px) and (max-width:767px) {  
      .nav__stick--left, 
         .nav__phone,
         .nav__chat,
@@ -148,17 +151,18 @@ white-space:nowrap;}
      margin:0;
      gap:16px
 }
-         
+  .section {display: flex;
+    flex-wrap: wrap;}
 
-        }
-    
- @media (min-width:321px) and (max-width:768px) { 
-   
-    
+}
+
+ @media (max-width:768px) { 
+       
      .section {margin:0;
                 display:flex;
         flex-direction: row;
-        justify-content: space-between;}
+        justify-content: space-between;
+    }
      .section__article {
             width: 50%;
            margin:0;
@@ -183,13 +187,9 @@ text-decoration-skip-ink: none;
         width: 0;
         overflow: hidden;}
     .section__text3 {display:none;}
-    
-
-    .section-image--class   {border-radius: 5%;}
-}
+ }
 
 @media (min-width:769px) { 
- 
     
      header {  height:0;
         width: 0;
@@ -217,6 +217,7 @@ text-decoration-skip-ink: none;
 
 .section {margin:0;
         display:flex;
+        width: 100%;
 flex-direction: row;
 justify-content: space-between;}
 
@@ -239,6 +240,4 @@ width: 50%;
    margin-right:40px;
    margin-top:13px;}
 
-.section-image--class
-{border-radius: 5%;}
 }
