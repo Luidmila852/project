@@ -3,54 +3,54 @@
     <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    
+<body>
       
- <header class="header"> 
+<header class="header"> 
 <nav class="nav">
- <div class="nav__left">
-    <div class="nav__menu"><img src="img/menu.svg" width="40" height="40"  alt="меню"></img></div> 
-    <div class="nav__stick--left">  <img src="img/stick.svg" alt=""></img> </div>
-    <div class="nav__logo">  <img src="img/logo.svg" width="96.55" height="50.81"  alt="логотип"></img> </div>
-</div>
-<div class="nav__right" >   
-    <div class="nav__phone">  <img src="img/phone.svg" width="40" height="40"  alt="телефон"></img> </div>
-    <div class="nav__chat">  <img src="img/chat.svg" width="40" height="40"  alt="чат"></img> </div>
-    <div class="nav__profile">  <img src="img/profile.svg" width="40" height="40"  alt="профиль"></img> </div>
-    <div class="nav__stick--right">  <img src="img/stick.svg" alt=""></img> </div>
-    <div class="nav__settings"> <img src="img/setting.svg" width="40" height="40"  alt="настройки"></img></div>
-    <div class="nav__search"> <img src="img/search.svg"width="40" height="40"  alt="поиск"></img></div>
-</div>    
+ <ul class="nav__list nav__list--left">
+    <li class="nav__item nav__item--menu"> <button><img src="img/menu.svg" width="40" height="40"  alt="меню"></img></button></liv> 
+    <li class="nav__item nav__item--stick-left">  <img src="img/stick.svg" alt=""></img> </li>
+    <li class="nav__item nav__item--logo"> <a href="#" > <img src="img/logo.svg" width="96.55" height="50.81"  alt="логотип"></img></a></li>
+</ul>
+<ul class="nav__list nav__list--right" >   
+    <li class="nav__item nav__item--phone"> <button> <img src="img/phone.svg" width="40" height="40"  alt="телефон"></img></button> </li>
+    <li class="nav__item nav__item--chat">  <button> <img src="img/chat.svg" width="40" height="40"  alt="чат"></img> </button></li>
+    <li class="nav__item nav__item--profile"> <button> <img src="img/profile.svg" width="40" height="40"  alt="профиль"></img></button> </li>
+    <li class="nav__item nav__item--stick-right">  <img src="img/stick.svg" alt=""></img> </li>
+    <li class="nav__item nav__item--settings"> <button><img src="img/setting.svg" width="40" height="40"  alt="настройки"></img></button></li>
+    <li class="nav__item nav__item--search"><button> <img src="img/search.svg"width="40" height="40"  alt="поиск"></img></button></li>
+</ul>    
 </nav>    
 </header> 
 
      <main>  
+
 <div class="heading">
-    <div class="heading__menu--left">
-    <div class="heading __stick"><img src="img/stick2.svg" width="4" height="40"  alt=""></img></div>
-       <h1 class="heading__title">Услуги и сервисы</h1>
-       </div>
-    <div class="heading__menu--right">
-            <span class="heading__item">Оставить заявку</span>
-            <div class="heading__img"> <img src="img/setting.svg" width="40" height="40"  alt="настройки"></img></div>
-                   <span class="heading__item">Статус ремонта</span>
-            <div class="heading__img"> <img src="img/search.svg"width="40" height="40"  alt="поиск"></img></div>
+<div class="heading__menu heading__menu--left">
+<div class="heading__stick"><img src="img/stick2.svg" width="4" height="40"  alt=""></img></div>
+<h1 class="heading__title">Услуги и сервисы</h1>
+    </div>
+<div class="heading__menu heading__menu--right">
+ <div class="heading__item">Оставить заявку</div>
+ <button class="heading__button"> <img src="img/setting.svg" width="40" height="40"  alt="настройки"></img></button>
+ <div class="heading__item">Статус ремонта</div>
+ <button class="heading__button"> <img src="img/search.svg"width="40" height="40"  alt="поиск"></img></button>
         </div>
     </div>
-</div> 
   
 
 <div class="nav2">
-    <nav class="nav2__list">
-    <div class="nav2__item">Ремонтируемые устройства </div> 
-    <div class="nav2__item">Дополнительные услуги </div> 
-    <div class="nav2__item">Цены на услуги </div>
-    <div class="nav2__item">Специальные цены </div> 
-    <div class="nav2__item">Адреса сервисных центров </div> 
-    <div class="nav2__item"> Отзывы  </div> 
-        </nav>
+    <ul class="nav2__list">
+    <li class="nav2__item"><a href="#">Ремонтируемые устройства </a></li> 
+    <li class="nav2__item"><a href="#">Дополнительные услуги</a> </li> 
+    <li class="nav2__item"><a href="#">Цены на услуги </a></li>
+    <li class="nav2__item"><a href="#">Специальные цены </a></li> 
+    <li class="nav2__item"><a href="#">Адреса сервисных центров </a></li> 
+    <li class="nav2__item"> <a href="#">Отзывы </a> </li> 
+    </ul>
 </div> 
 
 <section class="section">
@@ -59,22 +59,20 @@
         Только у нас вы можете отремонтировать свой ноутбук Dell c официальной 
         гарантией производителя.  </p>
         <p class="section__text2">
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера <span class="section__text3">, что подтверждает большое
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="section__text3">, что подтверждает большое
                 количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
                 очередь,советуют нас родным и близким.</span></p>
     <div class="section__button">
          <div> <img class="section__arows" src="img/arrows.svg"  alt=""> </div>
-        <div class="section__info"> Читать далее </div> 
+        <button class="section__info"> Читать далее </button> 
     </div>
 </div>
 <div class="section__aside">
-<img class="section__img--size" src="img/signboard.jpg" style="border-radius: 15px 15px 15px 15px" alt="График работы CPS компании"> </div>
+<img class="section__img--size" src="img/signboard.jpg"  alt="График работы CPS компании"> </div>
 </div>
  </section>
        </main>
-       <footer>
-
-       </footer>
+    
     </body>
 </html>
 
